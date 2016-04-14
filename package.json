@@ -1,13 +1,14 @@
 {
   "name": "chart.topoplot.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This repo adds a topographic head plot for EEG data to Chart.js",
-  "main": "Chart.Topoplot.js",
+  "main": "index.js",
   "directories": {
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/NeuroJS/Chart.Topoplot.js#readme",
   "dependencies": {
     "chart.js": "^2.0.0",
-    "dsp.js": "neurojs/dsp.js"
+    "dsp.js": "neurojs/dsp.js",
+    "topogrid": "^1.0.6"
   }
 }
